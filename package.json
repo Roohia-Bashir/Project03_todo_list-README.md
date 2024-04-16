@@ -1,0 +1,27 @@
+{
+  "name": "rs123_todo_list",
+  "version": "3.1.7",
+  "description": "A to-do list is a visual representation that organizes and manages tasks in your mind.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "265_todo_list": "todo_list.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roohia-Bashir",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.7"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.18"
+  }
+}
